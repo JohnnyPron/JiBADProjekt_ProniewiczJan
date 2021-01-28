@@ -77,7 +77,7 @@ def main_menu():
                 # że pojawienie się błędu wynika z właściwości zastosowanych metod
                 else:
                     raise ValueError
-            #
+            # wizualizacja posegregowanych notatek prasowych z pliku 'notes_classified.json'
             elif option == '4':
                 print("===============================================================================================")
                 pn_vizualize = PressNotesVisualizer()

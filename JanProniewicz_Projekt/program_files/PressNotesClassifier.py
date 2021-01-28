@@ -208,7 +208,7 @@ class PressNotesClassifier:
 
             # iteracja po kolejnych kategoriach
             for category in self.key_words_for_categories:
-                # dlasze procedury są pomijane, jeżeli kategoria już się znajduje na liście
+                # dalsze procedury są pomijane, jeżeli kategoria już się znajduje na liście
                 if category not in categories_for_note:
                     key_words = self.key_words_for_categories[category]  # pobranie słów klucz
                     num_of_occurrences = 0  # licznik wystąpień słów kluczowych w tytule i opisie notatki
